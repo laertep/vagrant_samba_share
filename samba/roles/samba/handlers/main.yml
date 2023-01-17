@@ -1,0 +1,4 @@
+---
+- name: Iniciando Samba
+  service: name=samba state=restarted
+# handlers file for samba

@@ -1,0 +1,4 @@
+---
+- name: Instalacao do Samba 
+  apt: name=samba state=latest
+  notify: Iniciando Samba
